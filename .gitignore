@@ -1,8 +1,4 @@
-__pycache__/
-*.pyc
-target/
-build/
-dist/
-*.iso
-.venv/
-node_modules/
+/target
+Cargo.lock
+*.swp
+*.bak

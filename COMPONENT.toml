@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-plugin-registry"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "Sandboxed desktop shell extension API, plugin registry, and capability permission validator"
+upstream = ["https://github.com/omacom/omarchy-plugin-registry"]
+
+[contract]
+provides = ["plugin-registry", "extension-sandbox-api", "capability-permission-validator"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"

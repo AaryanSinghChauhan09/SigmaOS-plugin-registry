@@ -1,0 +1,9 @@
+[package]
+name = "sigmaos_plugin_registry"
+version = "0.1.0"
+edition = "2021"
+description = "Sandboxed desktop shell extension API, plugin registry, and capability permission validator"
+
+[lib]
+name = "sigmaos_plugin_registry"
+path = "src/lib.rs"
