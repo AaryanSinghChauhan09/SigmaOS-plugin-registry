@@ -1,7 +1,7 @@
 [component]
 name = "SigmaOS-plugin-registry"
 tier = 3
-stability = "scaffold"
+stability = "beta"
 language = "rust"
 description = "Plugin registry & manifest index"
 upstream = ["https://github.com/omacom/omarchy-plugin-registry"]
@@ -11,6 +11,6 @@ provides = ["plugin-registry", "extension-sandbox-api", "capability-permission-v
 depends_on = ["SigmaOS-system"]
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
