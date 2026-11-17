@@ -3,12 +3,12 @@ name = "SigmaOS-plugin-registry"
 tier = 3
 stability = "scaffold"
 language = "rust"
-description = "Sandboxed desktop shell extension API, plugin registry, and capability permission validator"
+description = "Plugin registry & manifest index"
 upstream = ["https://github.com/omacom/omarchy-plugin-registry"]
 
 [contract]
 provides = ["plugin-registry", "extension-sandbox-api", "capability-permission-validator"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
