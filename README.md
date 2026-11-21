@@ -1,9 +1,9 @@
 # SigmaOS-plugin-registry
 
-Plugin registry & manifest index
+SigmaOS plugin registry component for SigmaOS
 
 - **Category:** Utilities
-- **Engine:** plugin_registry
+- **Engine:** try_live
 - **Language:** Rust
 
 ## Build & Test

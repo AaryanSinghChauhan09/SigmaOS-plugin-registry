@@ -4,7 +4,7 @@ tier = 3
 stability = "beta"
 language = "rust"
 description = "Plugin registry & manifest index"
-upstream = ["https://github.com/omacom/omarchy-plugin-registry"]
+upstream = ["https://github.com/omacom/sigmaos-plugin-registry"]
 
 [contract]
 provides = ["plugin-registry", "extension-sandbox-api", "capability-permission-validator"]

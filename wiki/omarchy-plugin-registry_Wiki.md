@@ -1,7 +1,7 @@
 # SigmaOS-SigmaOS-plugin-registry Component Wiki
 
 ## Overview
-SigmaOS-SigmaOS-plugin-registry provides Plugin registry & manifest index for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
+SigmaOS-SigmaOS-plugin-registry provides Plugin metadata and dependency resolver for the SigmaOS operating system. It demonstrates the subsystem and integration within the SigmaOS ecosystem, following the principles of clear abstraction and deterministic initialization.
 
 ## Principles
 - Single Responsibility

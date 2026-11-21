@@ -1,10 +1,14 @@
 [package]
-name = "sigmaos_plugin_registry"
+name = "SigmaOS-plugin-registry"
 version = "0.1.0"
 edition = "2021"
-license = "MIT"
-description = "SigmaOS plugin-registry component inspired by Linux Mint / Omarchy / Arch Linux."
+license = "Apache-2.0"
+description = "SigmaOS sigmaos-plugin-registry component"
 
 [lib]
 name = "sigmaos_plugin_registry"
 path = "src/lib.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
