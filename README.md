@@ -1,4 +1,6 @@
-# Omarchy Plugin Registry
+# SigmaOS Plugin Registry
+
+> Forked from [omacom/omarchy-plugin-registry](https://github.com/omacom/omarchy-plugin-registry) (MIT). See `SIGMAOS_FORK.md`.
 
 The hosted plugin registry for [Omarchy](https://omarchy.org) Quattro —
 `plugins.omarchy.org`. A Rails control plane serving a crates.io-style static
