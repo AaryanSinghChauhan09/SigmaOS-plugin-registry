@@ -64,3 +64,11 @@ bin/brakeman -q              # static security analysis
 bin/bundler-audit            # gem CVE audit
 bin/importmap audit          # JS dependency audit
 ```
+## Documentation
+
+Detailed Wiki documentation is available in the standalone Wiki repository:
+
+- [SigmaOS-plugin-registry-Wiki](https://github.com/AaryanSinghChauhan09/SigmaOS-plugin-registry-Wiki) - Full Wiki documentation
+
+For the complete SigmaOS Wiki catalog, see:
+- [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging)
