@@ -2,8 +2,8 @@
 
 > Forked from [omacom/omarchy-plugin-registry](https://github.com/omacom/omarchy-plugin-registry) (MIT). See `SIGMAOS_FORK.md`.
 
-The hosted plugin registry for [Omarchy](https://omarchy.org) Quattro —
-`plugins.omarchy.org`. A Rails control plane serving a crates.io-style static
+The hosted plugin registry for [SigmaOS](https://sigmaos.org) —
+`plugins.sigmaos.org`. A Rails control plane serving a crates.io-style static
 data plane: append-only JSON index + immutable, checksummed tarballs, with
 registry-native accounts, automated review, and a kill-bit for revoking
 already-installed plugins.
@@ -20,7 +20,7 @@ required user verification, or TOTP), namespaces
 trusted publishing later), review, and admin (quarantine / yank / kill-bit).
 On every accepted publish it regenerates static index files and freezes the
 tarball — installs never touch Rails in the hot path. Clients
-(`omarchy plugin add publisher/name`) fetch index + tarball from the CDN,
+(`sigmaos plugin add publisher/name`) fetch index + tarball from the CDN,
 verify checksums, and check a tiny signed `revocations.json` kill list.
 
 ## Development
