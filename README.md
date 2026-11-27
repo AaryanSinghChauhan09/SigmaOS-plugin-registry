@@ -48,9 +48,9 @@ plugin browser (docs/browse-api.md — unsigned browse data, never an install
 path).
 
 **Not yet done, and required before launch**: the Quattro-side client
-(`omarchy plugin add/update/publish`, signature + freshness verification,
+(`sigmaos plugin add/update/publish`, signature + freshness verification,
 receipts, the kill-bit check — contract in `docs/client-spec.md`), deployment
-(`docs/deploy.md`), the real omarchyplugins.com catalog for seeding, and the
+(`docs/deploy.md`), the real plugins.sigmaos.org catalog for seeding, and the
 governance roster names.
 
 Verify the current state locally — no claim here substitutes for running the
